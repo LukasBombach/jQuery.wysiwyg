@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/demo.css">
+    </head>
+    <body>
+
+        
+        <p id="editable" class="multiple-instances">
+            Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+
+            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+        </p>
+
+        <p class="multiple-instances">
+            Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+        </p>
+
+
+        <script src="javascript/lib/jquery-1.8.1.js"></script>
+        <script src="javascript/jquery.editable/jquery.editable.js"></script>
+        <script src="javascript/jquery.editable/plugins/cmd.js"></script>
+        <script src="javascript/jquery.editable/plugins/shortcut.js"></script>
+        <script src="javascript/jquery.editable/plugins/selection.js"></script>
+        <script>
+            $(function() {
+
+                var ed = $('#editable').editable()[0];
+                ed.selection('select', {"start":47, "end":63});
+                //ed.selection('delete');
+                
+                //ed.selection('select', {"start":"start"});
+                //ed.selection('select', "start");
+                //ed.selection('strt');
+
+            })
+        </script>
+    </body>
+</html>

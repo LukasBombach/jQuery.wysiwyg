@@ -1,0 +1,15 @@
+body {
+	background: #f9f9f9;
+}
+
+#editable {
+	width:   600px;
+	margin:  50px auto 0 auto;
+	padding: 10px;
+	outline: 1px solid blue;
+	background: #fff;
+}
+
+#editable:focus {
+	outline: 1px solid red;
+}

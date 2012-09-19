@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file://localhost/Users/luke/Dropbox/Projekte/Editable%202/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="./index_files/demo.css">
+    </head>
+    <body>
+
+        
+        <p id="editable" class="multiple-instances" contenteditable="true" spellcheck="false">
+            Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+
+            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+        </p>
+
+        <p class="multiple-instances">
+            Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+        </p>
+
+
+        <script src="./index_files/jquery-1.8.1.js"></script>
+        <script src="./index_files/jquery.editable.js"></script>
+        <script src="./index_files/cmd.js"></script>
+        <script src="./index_files/shortcut.js"></script>
+        <script>
+            $(function() {
+                
+                // $('.multiple-instances').editable('cmd')
+                
+                // $('#editable').editable('cmd');
+                // $('#editable').editable('cmd');
+                // $('#editable').editable('cmd');
+
+                var ed = $('#editable').editable()[0];
+
+            })
+        </script>
+    
+</body></html>
