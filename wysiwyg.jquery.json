@@ -1,0 +1,22 @@
+{
+    "name" : "wysiwyg",
+    "title" : "jQuery WYSIWYG",
+    "description" : "An attempt to take the pain out of wysiwyg editing",
+    "keywords": [
+        "wysiwyg"
+    ],
+    "version" : "0.1",
+    "author" : {
+        "name": "Lukas Bombach",
+        "url": "http://lukasbombach.de/",
+        "email" : "lukas.bombach@googlemail.com"
+    },
+    "homepage" : "https://github.com/LukasBombach/jQuery.wysiwyg",
+    "licenses" : [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "dependencies" : {
+        "jquery": ">=1.5"
+    }
+}
