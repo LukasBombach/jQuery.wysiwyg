@@ -3,7 +3,7 @@ jQuery.wysiwyg
 
 > # Update
 > I have put my efforts into writing a standalone WYSIWYG library. I will use this repository to write a jQuery wrapper for the library. You can find it here:
-> [https://github.com/LukasBombach/new-type-js](https://github.com/LukasBombach/new-type-js)
+> [https://github.com/LukasBombach/Type.js](https://github.com/LukasBombach/Type.js)
 
 An attempt to take the pain out of wysiwyg editing
 
